@@ -1,0 +1,3 @@
+The UCB1 algorithm is a better implementation plan for this problem because it balances exploration and exploitation using a principled approach grounded in confidence bounds. 
+Unlike ε-Greedy, which relies on random exploration, UCB1 selects arms based on both average reward and uncertainty, reducing regret over time. 
+It is deterministic, avoids tuning hyperparameters like epsilon, and adapts efficiently to changing reward estimates, making it ideal for maximizing long-term rewards in multi-armed bandit scenarios like ad selection.
